@@ -1,0 +1,14 @@
+{
+  "schema": "resource-room.catalog.v1",
+  "repository": "0everey/vfx-room",
+  "category": {
+    "id": "vfx",
+    "name": "特效／特效素材"
+  },
+  "futureTarget": {
+    "comparison": ">",
+    "threshold": 20,
+    "minimumCount": 21
+  },
+  "items": []
+}

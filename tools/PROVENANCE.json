@@ -1,0 +1,44 @@
+{
+  "sourceRepository": "https://github.com/0everey/static-web-bake",
+  "sourceVisibilityAtAdoption": "private",
+  "sourceCommit": "933435760797c2237b5d46ddcd1480e1b1db7673",
+  "upstreamLicenseAtAdoption": null,
+  "adoption": "Owner-requested public runtime subset; no new open-source license selected.",
+  "supportedCommands": [
+    "build",
+    "verify",
+    "pack",
+    "diff"
+  ],
+  "requiredRuntime": "Python 3.10+ standard library",
+  "optionalDependency": "Pillow may supplement image dimensions; not required for standard-library builds.",
+  "files": [
+    {
+      "path": "tools/static_web.py",
+      "sourcePath": "scripts/static_web.py",
+      "sourceGitBlob": "4a4059eb4bea24b1180ac6f57c2fc1d5012219b6",
+      "sourceSha256": "c11c100fe44783c01cbe63588b701006804f72f83b9313b6f952d4e7de028860",
+      "vendoredSha256": "3d1e237f0a4a2959b0ae47567e49a65a401a7d3289ebcfac98e1513980756877",
+      "adaptations": [
+        "Removed init/gallery/local-invitation command and unused uuid/shutil imports; kept build/verify/pack/diff logic unchanged.",
+        "Normalized this adapted file to UTF-8 LF."
+      ]
+    },
+    {
+      "path": "tools/image_metadata.py",
+      "sourcePath": "scripts/image_metadata.py",
+      "sourceGitBlob": "eca2367b59d6f0cbc9e9d49f7080aff4156f700c",
+      "sourceSha256": "c7f8bbcaa8bd76415fba106d8a8cc4a532fcdc1620944c247b8f6075752035cb",
+      "vendoredSha256": "c7f8bbcaa8bd76415fba106d8a8cc4a532fcdc1620944c247b8f6075752035cb",
+      "adaptations": []
+    },
+    {
+      "path": "tools/resource_groups.py",
+      "sourcePath": "scripts/resource_groups.py",
+      "sourceGitBlob": "c4ff6be58f4c74208c7bde644e1e392283143ca7",
+      "sourceSha256": "ea266b70d3075d09b322f32d10259358d270ff4880290ca1761a42629fcfa120",
+      "vendoredSha256": "ea266b70d3075d09b322f32d10259358d270ff4880290ca1761a42629fcfa120",
+      "adaptations": []
+    }
+  ]
+}
